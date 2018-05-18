@@ -1,0 +1,203 @@
+*{/*清除浏览器样式*/
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	background: #eee;
+}
+li{/*所有列表项去掉小圆点*/
+	list-style: none;
+}
+
+
+#header{/*头部超出隐藏*/
+	position: relative;
+	width: 93em;
+	height: 2.8em;
+	margin: 0 auto;
+	line-height: 1.6em;
+	font-size: 0.8em;
+	background: #eee;
+}
+	/*规定头部元素尺寸*/
+#header .headerleft{
+	float: left;
+	width: 5em;
+	height: 1.3em;		
+	padding: 0.7em;
+	text-align: center;
+}
+#header .headerright{
+	position: relative;/*右侧元素和左侧元素之前的关系*/
+	left: 23em;
+	float: left;
+	width: 4.8em;
+	height: 1.3em;	 
+	padding: 0.7em 0.8em;
+	text-align: center;
+}
+
+
+/*头部元素鼠标悬停效果*/
+#header div:hover{	
+	cursor: pointer;
+	color: #f00;
+	background: #fff;
+}
+
+/*我的淘宝*/
+#header .headerright .headerrightmytaobao{
+	visibility: hidden;
+	position: absolute;
+	top: 2.7em;
+	width: 6.5em;
+	height: 3.6em;
+	padding: 0.2em 0;
+	border: 0.1em solid #eee;
+	background: #fff;
+	z-index:  -1;
+}
+#header .headerright .headerrightmytaobao li{
+	background: #fff;
+}
+/*收藏*/
+#header .headerright .headerrightmycollect{
+	visibility: hidden;
+	position: absolute;
+	top: 2.7em;
+	width: 6.5em;
+	height: 3.6em;
+	padding: 0.2em 0;
+	border: 0.1em solid #eee;
+	background: #fff;
+	z-index:  -1;
+
+}
+#header .headerright .headerrightmycollect li{
+	background: #fff;
+}
+/*卖家中心*/
+#header .headerright .headerrightshopcenter{
+	visibility: hidden;
+	position: absolute;
+	top: 2.7em;
+	width: 6.8em;
+	height: 11em;
+	padding: 0.2em 0;
+	border: 0.1em solid #eee;
+	background: #fff;
+	z-index:  -1;
+
+}
+#header .headerright .headerrightshopcenter li{
+	background: #fff;
+}
+/*客服*/
+#header .headerright .headerrightservice{
+	visibility: hidden;
+	position: absolute;
+	top: 2.7em;
+	width: 6.5em;
+	height: 3.6em;
+	padding: 0.2em 0;
+	border: 0.1em solid #eee;
+	background: #fff;
+	z-index:  -1;
+}
+
+#header .headerright .headerrightservice li{
+	background: #fff;
+}
+#header .headerright .headerrightmytaobao li:hover{
+	background: #eee;
+}
+#header .headerright .headerrightmycollect li:hover{
+	background: #eee;
+}
+#header .headerright .headerrightshopcenter li:hover{
+	background: #eee;
+}
+#header .headerright .headerrightservice li:hover{
+	background: #eee;
+}
+
+/*网站导航*/
+#header .headerright .headerrightnav{
+	visibility: hidden;
+	position: absolute;
+	left: -87em;
+	top: 2.7em;
+	width: 93em;
+	height: 33em;
+	padding: 0.2em 0;
+	border: 0.1em solid #eee;
+	background: #fff;
+	z-index:  -1;
+}
+
+#header .headerright .headerrightnav .headerrightnav1{
+	float: left;
+	width: 23em;
+	margin: 0.5em 0;
+	border-right: 0.1em solid #eee;
+	font-weight: bold;
+	background: #fff;
+	z-index:  -1;
+}	
+.headerrightnavbranch1 li{
+	width: 20%;
+	background: #fff;
+}
+
+.headerrightnavbranch2 li,
+.headerrightnavbranch3 li{
+	width: 27%;
+	background: #fff;
+}
+.headerrightnavbranch4 li{
+	width: 40%;
+	background: #fff;
+}	
+.headerrightnav1:nth-child(1){
+	color: #f66;
+}
+.headerrightnav1:nth-child(2){
+	color: #6c9;
+}
+.headerrightnav1:nth-child(3){
+	color: #f0c;
+}
+.headerrightnav1:nth-child(4){
+	border-right: none;
+	color: #06f;
+}
+
+.headerrightnavbranch1 li:hover{
+	border-radius: 0.3em;
+	background: #f66;
+	cursor: pointer;
+}	
+.headerrightnavbranch2 li:hover{
+	border-radius: 0.3em;
+	cursor: pointer;
+	background: #6c9;
+
+}
+.headerrightnavbranch3 li:hover{
+	border-radius: 0.3em;
+	cursor: pointer;
+	background: #f0c;
+}
+.headerrightnavbranch4 li:hover{
+	border-radius: 0.3em;
+	cursor: pointer;
+	background: #06f;
+}
+
+.headerrightnav1 ul li{	
+	float: left;
+	margin: 0.2em;
+	padding: 0.4em 0.2em;
+	font-size: 0.8em;
+	font-weight: normal;
+	color:  #000;	
+}

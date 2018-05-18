@@ -1,0 +1,712 @@
+.shopping{
+	width: 73.8em;
+	height: 54em;
+	margin: 0 auto;
+	z-index: 0;
+}
+.shopping2{
+	position: relative;
+	width: 73.8em;
+	height: 54em;
+}
+.regularshopping{
+	position: absolute;
+	top: 0em;
+	width: 55em;
+	height: 54em;
+	z-index: 0;
+}
+.regularshopping .title{
+	position: absolute;
+	top: -2em;
+	display: block;
+	width: 55em;
+	height: 2.7em;
+	background: #fff;
+}
+.regularshopping .title p{
+	width: 13.75em;
+	height: 2.69em;
+	margin: 0 auto;
+	background: url(image/element.jpg) no-repeat;
+	background-position: 0em -37.3em;
+}
+
+.regularshopping .goods{
+	position: absolute;
+	top: 0.9em;
+	width: 55em;
+	height: 46.2em;
+	background: #fff;
+}
+
+
+.regularshopping .goods .branch{
+	position: relative;
+	display: block;
+	float: left;
+	width: 26.85em;
+	height: 22.7em;
+	margin-right: 0.5em; 
+	margin-bottom: 0.5em; 
+	background: #fff;
+}
+
+.regularshopping .goods .branch .left{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	float: left;
+	width: 6.3em;
+	height: 22.5em;
+}
+
+.regularshopping .goods .branch .left p{
+	width: 6.3em;
+	height: 6.3em;
+}
+.regularshopping .goods .branch .left p img{
+	width: 100%;
+	height: 100%;
+}
+.regularshopping .goods .branch .left .des{
+	width: 5.3em;
+	height: 15.5em;
+	padding: 0.5em;
+}
+
+.regularshopping .goods .branch .left .des h3{
+	width: 4em;
+	height: 1em;
+	font-weight: bold;
+	color: #fff;
+}
+
+.regularshopping .goods .branch .left .des ul{
+	width: 5.2em;
+	height: 14.3em;
+	margin-top: 0.2em;
+}
+.regularshopping .goods .branch .left .des ul li{
+	float: left;
+	line-height: 1.3em;
+	margin: 0.1em;
+	padding: 0.2em 0.3em;
+	font-size: 0.8em;
+	color: #fff;
+}
+.regularshopping .goods .branch:nth-child(1) .left .des{
+	background: #07f; 
+}
+.regularshopping .goods .branch:nth-child(1) .left .des h3{
+	background: #07f; 
+}
+.regularshopping .goods .branch:nth-child(1) .left .des ul{
+	background: #07f; 
+}
+
+.regularshopping .goods .branch:nth-child(1) .left .des ul li{
+	background: #39f; 
+}
+
+.regularshopping .goods .branch:nth-child(2) .left .des{
+	background: #fb0;
+}
+.regularshopping .goods .branch:nth-child(2) .left .des h3{
+	background: #fb0;
+}
+.regularshopping .goods .branch:nth-child(2) .left .des ul{
+	background: #fb0;
+}
+
+.regularshopping .goods .branch:nth-child(2) .left .des ul li{
+	background: #fc0;
+}
+
+.regularshopping .goods .branch:nth-child(3) .left .des{
+	background: #c06;
+}
+.regularshopping .goods .branch:nth-child(3) .left .des h3{
+	background: #c06;
+}
+.regularshopping .goods .branch:nth-child(3) .left .des ul{
+	background: #c06
+}
+
+.regularshopping .goods .branch:nth-child(3) .left .des ul li{
+	background: #c69;
+}
+
+.regularshopping .goods .branch:nth-child(4) .left .des{
+	background: #f3c;
+}
+.regularshopping .goods .branch:nth-child(4) .left .des h3{
+	background: #f3c;
+}
+.regularshopping .goods .branch:nth-child(4) .left .des ul{
+	background: #f3c;
+}
+
+.regularshopping .goods .branch:nth-child(4) .left .des ul li{
+	background: #f7c;
+}
+
+
+.regularshopping .goods .branch .left .des ul li:hover{
+	color: #f00;
+	cursor: pointer;
+	background: #fff;
+}
+
+.regularshopping .goods .branch .right{
+	position: absolute;
+	top: 0;
+	left: 6.3em;
+	display: block;
+	float: left;
+	width: 20.4em;
+	height: 22.7em;
+	background: #fff;
+}
+
+.regularshopping .goods .branch .right span{
+	float: left;
+	background: #fff;
+}
+.regularshopping .goods .branch .right span:nth-child(1){
+	width: 6.3em;
+	height: 12.06em;
+	border-right: 0.1em solid #eee;
+}
+.regularshopping .goods .branch .right span:nth-child(1) em{
+	width: 6.3em;
+	height: 12.06em;
+	cursor: pointer;
+}
+.regularshopping .goods .branch .right span:nth-child(1) img{
+	width: 100%;
+	height: 100%;
+}
+.regularshopping .goods .branch .right span:nth-child(2){
+	width: 6.3em;
+	height: 12.06em;
+	border-right: 0.1em solid #eee;
+}
+.regularshopping .goods .branch .right span:nth-child(2) em{
+	width: 6.3em;
+	height: 12.06em;
+	cursor: pointer;
+}
+.regularshopping .goods .branch .right span:nth-child(2) img{
+	width: 100%;
+	height: 100%;
+}
+.regularshopping .goods .branch .right span:nth-child(3){
+	position: relative;
+	width: 7.6em;
+	height: 6em;
+	border-bottom: 0.1em solid #eee;
+	cursor: pointer;
+}
+
+.regularshopping .goods .branch .right span:nth-child(3) b{
+	position: absolute;
+	left: 0.5em;
+	top: 1.4em;
+	display: block;
+	width: 5em;
+	height: 1em; 
+	font-size: 0.8em;
+	background: #fff;
+}
+.regularshopping .goods .branch .right span:nth-child(3) b:hover{
+	color: #f60;
+}
+
+.regularshopping .goods .branch .right span:nth-child(3) i{
+	position: absolute;
+	left: 0.5em;
+	top: 2.9em;	
+	display: block;
+	width: 4.5em;
+	height: 1em;
+	font-size: 0.8em;
+	font-style: normal;
+	background: #fff;
+}
+
+.regularshopping .goods .branch .right span:nth-child(3) em{
+	position: absolute;
+	left: 3.8em;
+	top: 2em;
+	display: block;
+	width: 3.75em;
+	height: 3.75em;
+	cursor: pointer;
+}
+.regularshopping .goods .branch .right span:nth-child(3) em img{
+	width: 100%;
+	height: 100%;
+}
+
+.regularshopping .goods .branch .right span:nth-child(4){
+	position: relative;
+	width: 7.6em;
+	height: 6em;
+	border-bottom: 0.1em solid #eee;
+	cursor: pointer;
+}
+
+.regularshopping .goods .branch .right span:nth-child(4) b{
+	position: absolute;
+	left: 0.5em;
+	top: 1.4em;
+	display: block;
+	width: 4.5em;
+	height: 1em;
+	font-size: 0.8em;
+	background: #fff;
+}
+
+.regularshopping .goods .branch .right span:nth-child(4) b:hover{
+	color: #f60;
+}
+.regularshopping .goods .branch .right span:nth-child(4) i{
+	position: absolute;
+	left: 0.5em;
+	top: 2.9em;
+	display: block;
+	width: 4.5em;
+	height: 1em;
+	font-size: 0.8em;
+	font-style: normal;
+	background: #fff;
+}
+
+.regularshopping .goods .branch .right span:nth-child(4) em{
+	position: absolute;
+	left: 3.8em;
+	top: 2em;
+	display: block;
+	width: 3.75em;
+	height: 3.75em;
+
+}
+.regularshopping .goods .branch .right span:nth-child(4) em img{
+	width: 100%;
+	height: 100%;
+}
+
+.regularshopping .goods .branch .right span:nth-child(5){
+	position: relative; 
+	width: 12.7em;
+	height: 10.4em;
+	border-top: 0.1em solid #eee;
+	border-right: 0.1em solid #eee;
+	cursor: pointer;
+}
+
+.regularshopping .goods .branch .right span:nth-child(5) b{
+	position: absolute;
+	left: 0.3em;
+	top: 10.1em;
+	display: block;
+	width: 4.4em;
+	height: 2.1em;
+	font-size: 0.8em;
+	line-height: 2.1em;
+	text-align: center;
+	background: #3df;
+	z-index: 3;
+}
+.regularshopping .goods .branch .right span:nth-child(5) i{
+	position: absolute;
+	left: 4.7em;
+	top: 10.1em;
+	display: block;
+	width: 10.4em;
+	height: 2.1em; 
+	font-size: 0.8em;
+	font-style: normal;
+	line-height: 2.1em;
+	text-align: center;
+	background: #eee;
+	z-index: 3;
+}
+.regularshopping .goods .branch .right span:nth-child(5) i:hover{
+	color: #f60;
+}
+.regularshopping .goods .branch .right span:nth-child(5) em{
+	position: absolute;
+	left: 0em;
+	top: 0em;
+	display: block;
+	width: 11.8em;
+	height: 9.19em;
+	margin: 0.6em 0.5em 0.4em 0.3em;
+}
+.regularshopping .goods .branch .right span:nth-child(5) em img{
+	width: 100%;
+	height: 100%;
+}
+
+.regularshopping .goods .branch .right span:nth-child(6){
+	position: relative;
+	width: 7.6em;
+	height: 5.2em;
+	border-bottom: 0.1em solid #eee;
+	cursor: pointer;
+}
+
+.regularshopping .goods .branch .right span:nth-child(6) i{
+	position: absolute;
+	left: 0em;
+	top: 5em;
+	display: block;
+	width: 6.4em;
+	height: 1.4em;
+	padding: 0.1em 1.4em;
+	font-size: 0.8em;
+	font-style: normal;
+	background: #fff;
+	opacity: 0.7;
+	z-index: 3;
+}
+.regularshopping .goods .branch .right span:nth-child(6) i:hover{
+	color: #f00;
+}
+.regularshopping .goods .branch .right span:nth-child(6) em{
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+	display: block;
+	width: 6.7em;
+	height: 4.6em;
+	
+}
+.regularshopping .goods .branch .right span:nth-child(6) em img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.regularshopping .goods .branch .right span:nth-child(7){
+	position: relative;
+	width: 7.6em;
+	height: 5.2em;
+	cursor: pointer;
+}
+
+.regularshopping .goods .branch .right span:nth-child(7) i{
+	position: absolute;
+	left: 0em;
+	top: 5em;
+	display: block;
+	width: 6.4em;
+	height: 1.4em;
+	padding: 0.1em 1.4em;
+	font-size: 0.8em;
+	font-style: normal;
+	background: #fff;
+	opacity: 0.7;
+	z-index: 3;
+} 
+.regularshopping .goods .branch .right span:nth-child(7) i:hover{
+	color: #f00;
+}
+.regularshopping .goods .branch .right span:nth-child(7) em{
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+	display: block;
+	width: 6.7em;
+	height: 4.6em;
+	
+} 
+.regularshopping .goods .branch .right span:nth-child(7) em img{
+	width: 100%;
+	height: 100%;
+}
+
+.regularshopping .goods .branch .right span em img:hover{
+	opacity: 0.8;
+}
+.regularshopping .goods .branch:nth-child(1) .right{
+	border: 0.1em solid #3cf;
+}
+.regularshopping .goods .branch:nth-child(1) .right:hover{
+	border: 0.1em solid #30f;
+}
+.regularshopping .goods .branch:nth-child(2) .right span:nth-child(5) b{
+	background: #ff0;
+} 
+.regularshopping .goods .branch:nth-child(2) .right{
+	border: 0.1em solid #fda;
+}
+.regularshopping .goods .branch:nth-child(2) .right:hover{
+	border: 0.1em solid #ff0;
+}
+.regularshopping .goods .branch:nth-child(3) .right span:nth-child(5) b{
+	background: #f00;
+} 
+.regularshopping .goods .branch:nth-child(3) .right{
+	border: 0.1em solid #f6c;
+}
+.regularshopping .goods .branch:nth-child(3) .right:hover{
+	border: 0.1em solid #f00;
+}
+
+.regularshopping .goods .branch:nth-child(4) .right span:nth-child(5) b{
+	background: #f0f;
+} 
+.regularshopping .goods .branch:nth-child(4) .right{
+	border: 0.1em solid #f9f;
+}
+.regularshopping .goods .branch:nth-child(4) .right:hover{
+	border: 0.1em solid #f0f;
+}
+
+.regularshopping .bottom{
+	position: absolute;
+	top: 48em;
+	display: block;
+	width: 55em;
+	height: 4.7em;
+	background: #fff url(image/regularbottom.jpg);
+}
+
+.regularshopping .bottom p{
+	font-weight: bold;
+	cursor: pointer;
+	color: #00f;
+	background: #fff;
+}
+.regularshopping .bottom p:nth-child(1){
+	position: absolute;
+	top: 0.3em;
+	left: 7em;
+	width: 6em;
+	height: 1em;
+	font-size: 1.75em;
+}
+.regularshopping .bottom p:nth-child(2){
+	position: absolute;
+	top: 3em;
+	left: 14.5em;
+	width: 4.5em;
+	height: 1em;
+}
+.regularshopping .bottom p:nth-child(3){
+	position: absolute;
+	top: 1em;
+	left: 19em;
+	width: 3em;
+	height: 1em;
+	font-size: 1.4em;
+}
+.regularshopping .bottom span{
+	display: block;
+	width: 4.7em;
+	height: 4.7em;
+	cursor: pointer;
+	background: url(image/bottomclothes.jpg);
+	background-size: 100% 100%;
+}
+.regularshopping .bottom .des1{
+	position: absolute;
+	top: 0em;
+	left: 1em;
+}
+.regularshopping .bottom .des2{
+	position: absolute;
+	left: 36em;
+	top: 0em;
+}
+.regularshopping .bottom .des3{
+	position: absolute;
+	left: 42em;
+}
+
+.goodthing{
+	position: absolute;
+	left: 55.5em;
+	top: 0em;
+	width: 18em;
+	height: 52.7em;
+	overflow: hidden;
+}
+
+.goodthing .title{
+	width: 18em;
+	height: 3.2em;
+	background: #fff;
+}
+
+.goodthing .title p{
+	position: absolute;
+	left: 1em;
+	width: 18em;
+	height: 3.2em;
+	background: url(image/element.jpg) no-repeat;
+	background-position: 0em -39.5em;
+}
+.goodthing .goods{
+	width: 18em;
+	height: 49.5em;
+	background: #fff;
+}
+
+.goodthing .goods .branch{
+	overflow: hidden;
+	width: 18em;
+	height: 7.07em;
+	background: #fff;
+}
+
+.goodthing .goods .branch span{
+	position: absolute;
+	left: 1em;
+	width: 6em;
+	height: 6em;
+	cursor: pointer;
+}
+.goodthing .goods .branch span img{
+	width: 100%;
+	height: 100%;
+}
+
+.goodthing .goods .branch div{
+	position: absolute;
+	left: 8em;
+	background: #fff;
+	cursor: pointer;
+}
+.goodthing .goods .branch b{
+	overflow: hidden;
+	width: 9em;
+	height: 1.2em;
+	font-size: 0.9em;
+	background: #fff;
+}
+.goodthing .goods .branch b:hover{
+	color: #f60;
+}
+.goodthing .goods .branch p{
+	overflow: hidden;
+	width: 12em;
+	height: 3em;
+	margin-top: 1em;
+	font-size: 0.8em;
+	line-height: 1.5em;
+	background: #fff;
+}
+.goodthing .goods .branch i{
+
+	width: 6em;
+	height: 1em;
+	font-size: 0.75em;
+	font-style: normal;
+	font-weight: bold;
+	color: #05f;
+	background: #fff;
+}
+
+#footer{
+	width: 73.5em;
+	height: 12em;
+	margin: 0 auto;
+}
+#footer ul{
+	position: relative;
+	width: 72em;
+	height: 10em;
+
+}
+
+#footer ul li{
+	float: left;
+	width: 18em;
+	height: 10em;
+}
+
+#footer ul li span{
+	position: absolute;
+	top: 2em;
+	width: 3em;
+	height: 3em;
+}
+
+#footer ul li:nth-child(1) span{
+	left: 2em;
+}
+#footer ul li:nth-child(2) span{
+	left: 20em;
+}
+#footer ul li:nth-child(3) span{
+	left: 38em;
+}
+#footer ul li:nth-child(4) span{
+	left: 56em;
+}
+
+#footer ul li span img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+
+#footer ul li b{
+	position: absolute;
+	top: 2.5em;
+	width: 6em;
+	height: 1.3em;
+	line-height: 1.3em;
+	cursor: pointer;
+}
+#footer ul li:nth-child(1) b{
+	left: 6em;
+}
+#footer ul li:nth-child(2) b{
+	left: 24em;
+}
+#footer ul li:nth-child(3) b{
+	left: 42em;
+}
+#footer ul li:nth-child(4) b{
+	left: 60em;
+}
+#footer ul li p{
+	position: absolute;
+	top: 6em;
+	width: 14em;
+	height: 2.6em;
+}
+
+#footer ul li:nth-child(1) p{
+	left: 2em;
+}
+#footer ul li:nth-child(2) p{
+	left: 20em;
+}
+#footer ul li:nth-child(3) p{
+	left: 38em;
+}
+#footer ul li:nth-child(4) p{
+	left: 56em;
+}
+#footer ul li p i{
+	display: block;
+	float: left;
+	height: 2em;
+	margin-right: 1.5em;
+	line-height: 2em;
+	font-style: normal;
+	font-size: 0.8em;
+	cursor: pointer;
+}
+#footer ul li p i:hover{
+	color: #f60;
+}

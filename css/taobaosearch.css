@@ -1,0 +1,164 @@
+.topsearch{
+	width: 100%;
+	height: 10em;
+	margin: 0 auto;
+	background: #fff;
+}
+
+#search{ 
+	overflow: hidden;
+	width: 73.8em;
+	height: 10em;
+	margin: 0 auto;
+
+	z-index: 0;
+}
+
+#searchbox{
+	position: relative; 
+	width: 73.8em;
+	height: 10em;
+	background: #fff; 
+}
+
+.logo{
+	position: absolute;
+	top: 2.3em;
+	left: 1.5em;
+	width: 11.8em;
+	height: 5.5em;
+	background: #fff;
+}
+
+.logo .taobaologo{
+	width: 9em;
+	height: 3.6em;
+	cursor: pointer;
+}
+.logo .taobaologo img{
+	width: 100%;
+	height: 100%;
+}
+
+.innerbox{
+	position: absolute;
+	top: 2.1em;
+	left: 17em;
+	width: 39em;
+	height: 5.7em;
+	background: #fff;
+}
+.innerbox .searchheader{
+	width: 39em;
+	height: 1.5em;
+	background: #fff;
+}
+.innerbox .searchheader ul li{
+	float: left;
+	padding: 0.6em 0.9em;
+	color: #f00;
+	font-size: 0.8em;
+	cursor: pointer;
+	background: #fff;
+}
+.innerbox .searchheader ul li.checked{
+	color: #fff;
+	font-weight: 700;
+	background: #f60;
+}
+.innerbox .searchinner{
+	position: absolute;
+	top: 1.8em;
+	width: 39em;
+	height: 2.5em;
+	background: #fff;
+}
+.innerbox .searchinner .searchinnerbox{
+	width: 38.5em;
+	height: 2.4em;
+	border: 0.3em solid #f60;
+	background: #fff;
+}
+
+.searchinnerbutton{
+	position: absolute;
+	left: 32em;
+	top: 0; 
+	width: 7.1em;
+	height: 2.4em;
+	padding: 0.3em;
+	border: none;
+	font-size: 1em;
+	font-weight: 900;
+	color: #fff;
+	cursor: pointer;
+	background: #f60;
+}
+.innerbox .searchhistory{
+	position: absolute;
+	top: 4.3em;
+	width: 39em;
+	height: 1em;
+	padding: 0.2em;
+	background: #fff;
+}
+
+.innerbox .searchhistory ul li{
+	float: left;
+	margin-right: 0.3em;
+	line-height: 1.2em;
+	font-size: 0.8em;
+	color: #f60;
+	cursor: pointer;
+	background: #fff;
+}
+.innerbox .searchhistory ul li:nth-last-child(1){
+	margin-left: 3.5em;
+}
+
+
+#search .QRcodebox{
+	position: absolute;
+	right: 0em;
+	top: 2.4em; 
+	width: 6em;
+	height: 7.1em;
+	border: 0.05em solid #ddd;
+	background: #fff; 
+}
+
+#search .QRcodebox .QRcodeX{
+	position: absolute;
+	left: -0.7em;
+	top: -0.04em;
+	width: 0.6em;
+	height: 0.6em;
+	border: 0.05em solid #ddd;
+	font-size: 1.4em;
+	line-height: 0.3em;
+	color: #ddd;
+	cursor: pointer;
+	background: #fff;
+}
+
+#search .QRcodebox .QRcodeD{
+	width: 6em;
+	height: 1em;
+	font-size: 0.8em;
+	text-align: center;
+	color: #f60;
+	cursor: pointer;
+	background: #fff;
+}
+#search .QRcodebox .QRcodeP{
+	width: 5em;
+	height: 5em;
+	cursor: pointer;
+	background: #fff;
+}
+#search .QRcodebox .QRcodeP img{	
+	width: 5em;
+	height: 5em;
+	margin: 0.5em;
+}
+
